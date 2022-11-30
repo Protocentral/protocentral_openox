@@ -2,7 +2,7 @@
 
 ProtoCentral OpenOx series of standalone PPG/HR/SpO2 monitors
 
-![Protocentral OpenOx Pulse Oximeter Breakout Board](assets/openox_breakout.jpg)
+![Protocentral OpenOx Pulse Oximeter Breakout Board](assets/openox_breakout.JPG)
 
 Protocentral OpenOx is a new standalone, wireless pulse oximetry breakout board that is powered by the ubiquitous ESP32 WROOM32 module and uses the AFE4490 IC to measure oxygen levels in the blood while also providing a PPG waveform, heart rate, and SpO2 values measured with high precision. 
 
