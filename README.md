@@ -12,12 +12,14 @@ Protocentral OpenOx redefines mobility and wireless capabilities. It functions a
 # Features
 
 * Microcontroller and wireless connectivity: ESP32, in WROOM32 module format, with a Dual-core Xtensa 32-bit CPU, 4 MB of on-board flash, Wi-Fi, and support for BLE
-* Wireless interface: Wi-Fi and Access Point (AP) modes, a 2.4 GHz radio with an on-board PCB antenna that is compatible with Bluetooth 4.2 and BLE
-* Firmware programming: Supports Arduino IDE as well as Espressif ESP-IDF
-* TI AFE4400 Single chip pulse pulsoximetry front-end IC
+* Wireless interface: Bluetooth Low Energy (BLE)
+* Firmware is written using the Arduino IDE
+* Texas Instruments AFE4400 Single chip pulse pulse-oximetry front-end IC
 * Standard Nellcor compatible DB9 connector for probe
 * Calculates Spo2 values with provided code
 * Real-time display of PPG (Photoplethysmogram)
+* Data transmission over USB and/or BLE.
+* Compatible with the ProtoCentral OpenView visualization program.
 
 # Repository Contents
 
