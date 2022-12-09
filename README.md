@@ -2,12 +2,13 @@
 
 ProtoCentral OpenOx series of standalone PPG/HR/SpO2 monitors
 
-![Protocentral OpenOx Pulse Oximeter Breakout Board](assets/openox_breakout.JPG)
+![Protocentral OpenOx Pulse Oximeter Breakout Board](assets/openox.jpg)
+
+Don't have it yet? Buy one here: [Protocentral OpenOx Pulse Oximeter Breakout Board Kit](https://protocentral.com/product/protocentral-openox-pulse-oximeter-breakout-board-kit/)
 
 Protocentral OpenOx is a new standalone, wireless pulse oximetry breakout board that is powered by the ubiquitous ESP32 WROOM32 module and uses the AFE4490 IC to measure oxygen levels in the blood while also providing a PPG waveform, heart rate, and SpO2 values measured with high precision. 
 
 Protocentral OpenOx redefines mobility and wireless capabilities. It functions as a data acquisition system, allowing for continuous real-time monitoring of blood oxygen levels via BLE, which improves the user's medical care within his or her environment as well as medical research opportunities. The standard Nellcor probe is used, which is comfortable to wear, does not restrict the user's freedom of movement, and functions as a battery-powered standalone device.
-
 
 # Features
 
@@ -23,24 +24,23 @@ Protocentral OpenOx redefines mobility and wireless capabilities. It functions a
 
 # Repository Contents
 
-* **/software** - Arduino library and example sketches.
+* **/firmwaree** - Arduino sketches for the firmware
 * **/hardware** - All Eagle hardware design files
 
 # Using the ProtoCentral OpenView GUI
 
 The GUI for visualizing the PPG as well as parameters like Heart rate and spO2 is written in Processing, based on Java and is cross-compilable across platforms.
 
-
-Java 8 is required on all platforms for running the processing-based GUI application. You can download Java for your platform from the [Official Java website](https://www.java.com/en/download/).
-
 You can download and install [ProtoCentral OpenView from here](https://github.com/Protocentral/protocentral_openview).
 
 Once you have opened OpenView, make sure to select "AFE4490 breakout" under the "Board" dropdown. 
 
+Java 8 is required on all platforms for running the processing-based GUI application. You can download Java for your platform from the [Official Java website](https://www.java.com/en/download/).
+
 License Information
 ===================
 
-![License](license_mark.svg)
+![License](assets/license_mark.svg)
 
 This product is open source! Both, our hardware and software are open source and licensed under the following licenses:
 
