@@ -1,4 +1,4 @@
-# Protocentral OpenOx Pulse Oximeter Breakout Board Kit
+# ProtoCentral OpenOx Wireless Pulse Sensor Kit based on AFE4400/ESP32
 
 ProtoCentral OpenOx series of standalone PPG/HR/SpO2 monitors
 
