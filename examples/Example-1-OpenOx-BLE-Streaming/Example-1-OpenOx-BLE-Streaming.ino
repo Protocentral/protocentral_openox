@@ -15,7 +15,7 @@
 
 
 #include <SPI.h>
-#include "protocentral_afe44xx.h"
+#include <protocentral_afe44xx.h>
 
 #include <BLEDevice.h>
 #include <BLEServer.h>

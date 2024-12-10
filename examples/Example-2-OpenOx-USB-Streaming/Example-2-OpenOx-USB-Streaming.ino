@@ -15,7 +15,7 @@
 
 
 #include <SPI.h>
-#include "protocentral_afe44xx.h"
+#include <protocentral_afe44xx.h>
 
 #define AFE44XX_CS_PIN   25
 #define AFE44XX_DRDY_PIN 13
