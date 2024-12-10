@@ -6,12 +6,12 @@ on:
     paths:
       - ".github/workflows/compile-examples.yml"
       - "examples/**"
-      - "src/**"
+    
   pull_request:
     paths:
       - ".github/workflows/compile-examples.yml"
       - "examples/**"
-      - "src/**"
+     
  
 jobs:
   build:
