@@ -1,10 +1,9 @@
-# ProtoCentral OpenOx Wireless Pulse Sensor Kit based on AFE4400/ESP32
-
-ProtoCentral OpenOx series of standalone PPG/HR/SpO2 monitors
-
-![Protocentral OpenOx Pulse Oximeter Breakout Board](assets/openox.jpg)
+Protocentral OpenOx Wireless Pulse Sensor Kit based on AFE4400/ESP32
+========================================
 
 Don't have it yet? Buy one here: [Protocentral OpenOx Pulse Oximeter Breakout Board Kit](https://protocentral.com/product/protocentral-openox-pulse-oximeter-breakout-board-kit/)
+
+![Protocentral OpenOx Pulse Oximeter Breakout Board](assets/openox.jpg)
 
 Protocentral OpenOx is a new standalone, wireless pulse oximetry breakout board that is powered by the ubiquitous ESP32 WROOM32 module and uses the AFE4490 IC to measure oxygen levels in the blood while also providing a PPG waveform, heart rate, and SpO2 values measured with high precision. 
 
@@ -22,20 +21,53 @@ Protocentral OpenOx redefines mobility and wireless capabilities. It functions a
 * Data transmission over USB and/or BLE.
 * Compatible with the ProtoCentral OpenView visualization program.
 
-# Repository Contents
+## Hardware Setup
 
-* **/firmwaree** - Arduino sketches for the firmware
-* **/hardware** - All Eagle hardware design files
+Connection with the Arduino board is as follows:
+ 
+ |OpenOx pin label| Arduino Connection  |Pin Function      |
+ |:-----------------: |:---------------------:|:------------------:|
+ | Tx0              |                         |  Serial Data     |
+ | RX0              |                         |  Serial Clock    |
+ | SDA              |                         |  Power           |
+ | SCL              |                         |  GND             |
+ | GND              | GND                     |  Ground          |
+ | 3V3              | 3V                      |  3V power supply |
 
-# Using the ProtoCentral OpenView GUI
+# Visualizing Output
 
-The GUI for visualizing the PPG as well as parameters like Heart rate and spO2 is written in Processing, based on Java and is cross-compilable across platforms.
+### USB Streaming
 
-You can download and install [ProtoCentral OpenView from here](https://github.com/Protocentral/protocentral_openview).
+* Open the GUI, make sure to select **AFE4490 breakout** under the **Board** dropdown and the appropriate **Port**. If everything goes well, you will be able to see the screen as pictured above.
 
-Once you have opened OpenView, make sure to select "AFE4490 breakout" under the "Board" dropdown. 
+   <center>
 
-Java 8 is required on all platforms for running the processing-based GUI application. You can download Java for your platform from the [Official Java website](https://www.java.com/en/download/).
+  ![streaming vitals](./assets/openox_openview.png)
+
+  </center>
+
+### BLE streaming
+
+ <center>
+
+  ![Scan](./assets/scan_healthypi_app.png)
+  ![Home](./assets/home_healthypi_app.png)
+
+  </center>
+
+ <center>
+
+  ![Plots](./assets/plots_healthypi_app.png)
+
+  </center>
+
+For further details of the board, refer the documentation
+<center>
+
+[Protocentral OpenOx Wireless Pulse Sensor Documentation](https://docs.protocentral.com/getting-started-with-openox.md/)
+
+</center>
+
 
 License Information
 ===================
