@@ -173,6 +173,7 @@ jobs:
           libraries: |
             # Install the library from the local path.
             - source-path: ./
+            - name : ProtoCentral AFE4490 PPG and SpO2 boards library
             # Additional library dependencies can be listed here.
             # See: https://github.com/arduino/compile-sketches#libraries
           sketch-paths: |
