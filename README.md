@@ -16,10 +16,10 @@ Connection with the Arduino board is as follows:
 
  |OpenOx pin label| Arduino Connection  |Pin Function      |
  |:-----------------: |:---------------------:|:------------------:|
- | Tx0              |                         |  Serial Data     |
- | RX0              |                         |  Serial Clock    |
- | SDA              |                         |  Power           |
- | SCL              |                         |  GND             |
+ | Tx0              |  -                       |  Serial Data     |
+ | RX0              |  -                        |  Serial Clock    |
+ | SDA              |  SDA                        |  Power           |
+ | SCL              |  SCL                      |  GND             |
  | GND              | GND                     |  Ground          |
  | 3V3              | 3V                      |  3V power supply |
 
@@ -49,12 +49,9 @@ Connection with the Arduino board is as follows:
 
   </center>
 
-For further details of the board, refer the documentation
-<center>
 
-[Protocentral OpenOx Wireless Pulse Sensor Documentation](https://docs.protocentral.com/getting-started-with-openox.md/)
+## For further details, refer [the documentation on OpenOx Wireless Pulse Sensor](https://docs.protocentral.com/getting-started-with-openox.md/)
 
-</center>
 
 
 License Information
