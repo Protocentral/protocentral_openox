@@ -175,7 +175,7 @@ jobs:
             # Additional library dependencies can be listed here.
             # See: https://github.com/arduino/compile-sketches#libraries
           sketch-paths: |
-            - examples/Example-2-OpenOx-USB-Streaming
+            - examples/Example2-OpenOx-USB-Streaming
           enable-deltas-report: true
           sketches-report-path: ${{ env.SKETCHES_REPORTS_PATH }}
 
