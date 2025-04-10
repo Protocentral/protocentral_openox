@@ -1,6 +1,9 @@
 Protocentral OpenOx Wireless Pulse Sensor Kit based on AFE4400/ESP32
 ========================================
 
+[![Compile Examples](https://github.com/Protocentral/protocentral_openox/workflows/Compile%20Examples/badge.svg)](https://github.com/Protocentral/protocentral_openox/actions?workflow=Compile+Examples) 
+
+
 ## Don't have one? [Buy it here](https://protocentral.com/product/protocentral-openox-pulse-oximeter-breakout-board-kit/)
 
 ![Protocentral OpenOx Pulse Oximeter Breakout Board](assets/openox.jpg)
