@@ -53,7 +53,7 @@ Connection with the Arduino board is as follows:
   </center>
 
 
-## For further details, refer [the documentation on OpenOx Wireless Pulse Sensor](https://docs.protocentral.com/getting-started-with-openox.md/)
+## For further details, refer [the documentation on OpenOx Wireless Pulse Sensor](https://docs.protocentral.com/getting-started-with-openox/)
 
 
 
